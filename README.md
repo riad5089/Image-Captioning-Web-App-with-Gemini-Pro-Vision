@@ -5,7 +5,7 @@
 ### STEP 01- Clone the repository
 
 ```bash
-Project repo: https://github.com/riad5089/End-to-End-Medical-Chatbot-using-Llama2.git
+Project repo: https://github.com/riad5089/Image-Captioning-Web-App-with-Gemini-Pro-Vision.git
 ```
 
 ### STEP 02-Create a conda environment after opening the repository

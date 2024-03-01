@@ -29,3 +29,5 @@ pip install -r requirements.txt
 ### Project Demo
 <img src="Screenshot_11.png" width="800" height="600">
 
+### Deployment
+I made a web application using streamlit framework. This web application is hosted in share.streamlit you can check out this app [here](https://image-captioning-web-app-with-gemini-pro-vision-jwjanv9nuwoijj.streamlit.app/).

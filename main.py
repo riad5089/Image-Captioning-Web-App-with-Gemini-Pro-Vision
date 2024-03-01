@@ -28,9 +28,21 @@ image_source = st.radio("Select Image Source:", ("Upload an image", "Enter Image
 
 if image_source == "Upload an image":
     uploaded_image = st.file_uploader("Upload an image...", type=["jpg", "jpeg", "png"])
+    if uploaded_image is not None:  # Check if an image is uploaded
+        if st.button("Generate Caption"):
+            image = Image.open(uploaded_image)
+            col1, col2 = st.columns(2)
+            with col1:
+                resized_img = image.resize((800, 500))
+                st.image(resized_img)
+
+            default_prompt = "write a short caption for this image"
+            caption = get_image_caption(default_prompt, image)
+            with col2:
+                st.info(caption)
 else:
     image_url = st.text_input("Enter Image URL:")
-    if st.button("Generate Caption"):
+    if st.button("Use URL"):
         try:
             response = requests.get(image_url)
             image = Image.open(BytesIO(response.content))

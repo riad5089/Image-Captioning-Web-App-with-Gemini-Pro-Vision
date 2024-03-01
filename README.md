@@ -1,5 +1,10 @@
 # Image-Captioning-Web-App-with-Gemini-Pro-Vision
 
+### Introduction
+Image captioning has become an essential tool in making content accessible and interactive in digital spaces. With the advent of advanced LLM models like Google’s Gemini Pro Vision, generating captions for images has become more accurate and contextually relevant. In this blog, we will explore how to build a simple web application using Streamlit and Google Google’s Gemini Pro Vision to create a tool that generates captions for uploaded images.
+
+
+
 ### STEPS to run the project:
 
 ### STEP 01- Clone the repository

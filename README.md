@@ -20,6 +20,7 @@ env\Scripts\activate
 ### STEP 03- install the requirements
 ```bash
 pip install -r requirements.txt
-
+```
+### Project Demo
 <img src="Screenshot_11.png" width="800" height="600">
 
